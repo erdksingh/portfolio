@@ -1,22 +1,20 @@
 import React, { Component } from "react";
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
-import Greeting from "./greeting/Greeting";
-import Skills from "./skills/Skills";
-import StackProgress from "./skillProgress/skillProgress";
-import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
-import StartupProject from "./StartupProjects/StartupProject";
+import { StyleProvider } from "../contexts/StyleContext";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
-import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
+import Contact from "./contact/Contact";
 import Education from "./education/Education";
+import Greeting from "./greeting/Greeting";
+import "./Main.css";
+import StackProgress from "./skillProgress/skillProgress";
+import Skills from "./skills/Skills";
+import StartupProject from "./StartupProjects/StartupProject";
+import Talks from "./talks/Talks";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
-import { StyleProvider } from "../contexts/StyleContext";
-import "./Main.css";
-import Profile from "./profile/Profile";
-
+import WorkExperience from "./workExperience/WorkExperience";
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -45,13 +43,12 @@ export default class Main extends Component {
           <StackProgress />
           <Education />
           <WorkExperience />
-          <Projects />
           <StartupProject />
           <Achievement />
+          <Contact />
           <Blogs />
           <Talks />
           <Twitter />
-          <Profile />
           <Footer />
           <Top />
         </StyleProvider>

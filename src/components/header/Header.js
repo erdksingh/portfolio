@@ -12,6 +12,7 @@ import {
   talkSection,
   achievementSection,
 } from "../../constants";
+import Flip from "react-reveal/Flip";
 
 function Header() {
   const { isDark } = useContext(StyleContext);
@@ -25,9 +26,16 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="" className="logo">
-          <span className="logo-name">{greeting.username}</span>
-        </a>
+        <Flip left>
+          <img
+            name={greeting.name}
+            crossOrigin={"anonymous"}
+            className="education-roundedimg"
+            src={greeting.logo}
+            alt={"logo"}
+            style={{ marginLeft: 10, width: 100, height: 100 }}
+          />
+        </Flip>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"

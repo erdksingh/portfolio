@@ -127,7 +127,7 @@ const educationInfo = {
       subHeader: "Bachelor of Technology",
       duration: "Jun 2008 - June 2012",
       desc: "",
-      descBullets: ['Information Technology with Hons'],
+      descBullets: ["Information Technology with Hons"],
     },
   ],
 };
@@ -213,7 +213,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: "",
   githubUserName: "erdksingh", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false, // Set false to hide this section, defaults to true
 };
 
@@ -279,7 +279,7 @@ const talkSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: emoji("https://www.linkedin.com/in/erdksingh/"),
+  // subtitle: emoji("https://www.linkedin.com/in/erdksingh/"),
   number: "+61 XXX XXX XXX",
   email_address: "er.dks2012@gmail.com",
 };

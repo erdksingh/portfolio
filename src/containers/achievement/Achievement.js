@@ -4,7 +4,18 @@ import AchievementCard from "../../components/achievementCard/AchievementCard";
 import { achievementSection } from "../../constants";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import firstImage from "../../assets/images/instaAward1.jpg";
+import secondImage from "../../assets/images/instaAward2.jpg";
+import thirdImage from "../../assets/images/instaAward3.jpg";
+import fourthImage from "../../assets/images/instaAward4.jpg";
+
 export default function Achievement() {
+  const imageLookUp = {
+    0: firstImage,
+    1: secondImage,
+    2: thirdImage,
+    4: fourthImage,
+  };
   const { isDark } = useContext(StyleContext);
   if (!achievementSection.display) {
     return null;
@@ -34,12 +45,13 @@ export default function Achievement() {
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card,i) => {
+            {achievementSection.achievementsCards.map((card, i) => {
               return (
                 <AchievementCard
                   key={i}
                   isDark={isDark}
                   cardInfo={card}
+                  image={imageLookUp[i]}
                 />
               );
             })}

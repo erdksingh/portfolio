@@ -6,6 +6,8 @@ import { Fade } from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import LinkedInCard from "../linkedin/linkedInCard";
+import image from "../../assets/images/contactMailDark.svg";
 
 export default function Contact() {
   const { isDark } = useContext(StyleContext);
@@ -22,7 +24,7 @@ export default function Contact() {
                   : "subTitle contact-subtitle"
               }
             >
-              {contactInfo.subtitle || ""}
+              {contactInfo.subtitle || <LinkedInCard />}
             </p>
             <div
               className={
@@ -51,7 +53,7 @@ export default function Contact() {
             ) : (
               <img
                 alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")} //add your own image
+                src={image} //add your own image
               ></img>
             )}
           </div>

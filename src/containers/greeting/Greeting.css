@@ -1,11 +1,11 @@
 .main {
-  width: 90%;
+  width: 95%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 4rem;
 }
 .greet-main {
-  width: 90%;
+  width: 95%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
@@ -25,7 +25,6 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
 }
 .button-greeting-div {
   display: flex;
@@ -105,13 +104,13 @@
   .greeting-main {
     display: block;
   }
-  .greeting-image-div{
+  .greeting-image-div {
     height: 256px;
   }
 }
 
-@media (max-width: 320px){
-  .main{
+@media (max-width: 320px) {
+  .main {
     width: auto;
   }
-} 
+}
