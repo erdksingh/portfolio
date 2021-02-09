@@ -23,17 +23,6 @@ const LinkedInCard = () => {
         Durgesh Singh
       </a>
     </div>
-    //   <>
-    //     {/* <Iframe
-    //       url="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-    //       width="450px"
-    //       height="450px"
-    //       id="myId"
-    //       display="initial"
-    //       position="relative" */}
-    //      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    //     {/* /> */}
-    //   </>
   );
 };
 

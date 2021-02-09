@@ -33,6 +33,7 @@
   height: 250px;
   overflow: hidden;
   text-align: center;
+  /* min-width: 275px; */
 }
 .achievement-cards-div {
   display: grid;
@@ -64,4 +65,9 @@
 }
 span.certificate-tag:hover {
   background: #8c43ce;
+}
+@media (max-width: 475px) {
+  .certificate-image-div {
+    width: 250px;
+  }
 }

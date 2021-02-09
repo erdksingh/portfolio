@@ -30,10 +30,9 @@ function Header() {
           <img
             name={greeting.name}
             crossOrigin={"anonymous"}
-            className="education-roundedimg"
+            className="logo-roundedimg"
             src={greeting.logo}
             alt={"logo"}
-            style={{ marginLeft: 10, width: 100, height: 100 }}
           />
         </Flip>
         <input className="menu-btn" type="checkbox" id="menu-btn" />

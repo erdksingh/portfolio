@@ -14,7 +14,7 @@ export default function Achievement() {
     0: firstImage,
     1: secondImage,
     2: thirdImage,
-    4: fourthImage,
+    3: fourthImage,
   };
   const { isDark } = useContext(StyleContext);
   if (!achievementSection.display) {

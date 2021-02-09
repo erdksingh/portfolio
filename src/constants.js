@@ -235,10 +235,10 @@ const achievementSection = {
     emoji("✓ Thumbs Up always for building defect free applications"),
     emoji("✓ Insta Awards at various levels at offshore"),
     emoji(
-      "✓ Build swagger API internally as a team, which enables BA,’s to write swagger file easily with simple commands, as a part of client Hackathon."
+      "✓ Training on various technologies like Python, AWS, Node, Express, Security, etc"
     ),
     emoji(
-      "✓ Training on various technologies like Python, AWS, Node, Express, Security, etc"
+      "✓ Build swagger API internally as a team, which enables BA,’s to write swagger file easily with simple commands, as a part of client Hackathon."
     ),
     emoji("✓ Agile certified"),
   ],
@@ -279,7 +279,6 @@ const talkSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  // subtitle: emoji("https://www.linkedin.com/in/erdksingh/"),
   number: "+61 XXX XXX XXX",
   email_address: "er.dks2012@gmail.com",
 };
@@ -288,7 +287,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "Durgesh_infy", //Replace "twitter" with your twitter username without @
-  display: false, // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 export {
