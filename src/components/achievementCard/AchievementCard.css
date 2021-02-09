@@ -68,6 +68,6 @@ span.certificate-tag:hover {
 }
 @media (max-width: 475px) {
   .certificate-image-div {
-    width: 250px;
+    width: 300px;
   }
 }
