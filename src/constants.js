@@ -27,6 +27,7 @@ const greeting = {
 const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/erdksingh/",
   github: "https://github.com/erdksingh/",
+  instagram: "https://www.instagram.com/Durgesh.Singh07/",
   display: true, // Set true to display this section, defaults to false
 };
 
@@ -287,7 +288,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "Durgesh_infy", //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {

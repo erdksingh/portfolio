@@ -1,18 +1,39 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
+import * as Icon from "react-feather";
 import Headroom from "react-headroom";
-import "./Header.css";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
-import StyleContext from "../../contexts/StyleContext";
-import {
-  greeting,
-  workExperiences,
-  skillsSection,
-  openSource,
-  blogSection,
-  talkSection,
-  achievementSection,
-} from "../../constants";
 import Flip from "react-reveal/Flip";
+import {
+  achievementSection,
+  blogSection,
+  greeting,
+  openSource,
+  skillsSection,
+  talkSection,
+  workExperiences,
+} from "../../constants";
+import StyleContext from "../../contexts/StyleContext";
+import "./Header.css";
+
+const SunMoon = ({ darkMode }) => {
+  console.log(darkMode);
+  const styleContext = useContext(StyleContext);
+  const [isDark, setIsDark] = useState(false);
+  return (
+    <div
+      className="SunMoon"
+      defaultValue={isDark}
+      id="mode"
+      aria-details="change theme"
+      aria-describedby="change theme"
+      onClick={() => {
+        styleContext.changeTheme();
+        setIsDark(!isDark);
+      }}
+    >
+      <div>{darkMode ? <Icon.Sun color={"#ffc107"} /> : <Icon.Moon />}</div>
+    </div>
+  );
+};
 
 function Header() {
   const { isDark } = useContext(StyleContext);
@@ -79,7 +100,9 @@ function Header() {
           </li>
           <li>
             <a>
-              <ToggleSwitch />
+              <span title={isDark ? "change light theme" : "change dark theme"}>
+                <SunMoon darkMode={isDark} />
+              </span>
             </a>
           </li>
         </ul>

@@ -185,3 +185,7 @@
     margin-right: 0;
   }
 }
+
+.SunMoon {
+  cursor: pointer;
+}
