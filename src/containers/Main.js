@@ -15,6 +15,7 @@ import Talks from "./talks/Talks";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import WorkExperience from "./workExperience/WorkExperience";
+import Youtube from "./youtube/youtube";
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -49,6 +50,7 @@ export default class Main extends Component {
           <Blogs />
           <Talks />
           <Twitter />
+          <Youtube />
           <Footer />
           <Top />
         </StyleProvider>

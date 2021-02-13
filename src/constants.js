@@ -291,6 +291,23 @@ const twitterDetails = {
   display: false, // Set true to display this section, defaults to false
 };
 
+const youtubeLinks = {
+  urls:[
+    {
+      title: "Fly without machine",
+      url:'https://www.youtube.com/embed/_rJWbKBq1uk'
+    },
+     {
+      title: "Nth sydney-suburbs",
+      url:'https://www.youtube.com/embed/K-CGnatiE9I'
+    },
+    {
+      title: "sydney harbour bridge walk",
+      url:'https://www.youtube.com/embed/Y1l1MDKL_q0'
+    },
+  ],
+  display: true, // Set true to display this section, defaults to false
+};
 export {
   illustration,
   greeting,
@@ -306,4 +323,5 @@ export {
   talkSection,
   contactInfo,
   twitterDetails,
+  youtubeLinks
 };

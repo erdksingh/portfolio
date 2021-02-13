@@ -1,0 +1,8 @@
+.youtube {
+  padding: 35px;
+}
+@media (max-width: 768px) {
+  .youtube {
+    padding: 5px;
+  }
+}
