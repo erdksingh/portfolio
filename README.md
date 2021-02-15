@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # How to use this repo for your need
 
-Just find constants.js and modify it for your purpose. I owe to this guy https://github.com/saadpasta and thankful always. I have just modified on top of what i needed
+Just find constants.js and modify it for your purpose. I owe to this guy https://github.com/saadpasta. I have just modified on top of what i needed
 
 # ways to deploy the code
 
