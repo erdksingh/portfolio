@@ -306,7 +306,7 @@ const youtubeLinks = {
       url:'https://www.youtube.com/embed/Y1l1MDKL_q0'
     },
   ],
-  display: true, // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 export {
   illustration,
