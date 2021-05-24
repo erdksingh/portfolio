@@ -16,7 +16,7 @@ const greeting = {
   logo: userImg,
   title: "Hi, this is Durgesh",
   subTitle: emoji(
-    "I am a MERN/Full stack developer, experience working in the Banking and Telecommunication domains. I've almost 9+ years of experience in the software industry building native, hybrid, and monolithic applications using front-end tech such as React/NodeJS and back-end experience in Java/Spring Boot and Rest API. I also have experience in AWS/AWS Lambdas."
+    "I am a MERN/Full stack developer, experience working in the Banking and Telecommunication domains. I've 9+ years of experience in the software industry building native, hybrid, and monolithic applications using technologies such as JavaScript/TypeSCript/ReactJS/ExpressJS/NodeJS and Java/SpringBoot/Rest API and Docker and AWS"
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1ZlpBbOU7WIuVTmxj4E1qq8gqcuv1HN8s?usp=sharing",
@@ -292,18 +292,18 @@ const twitterDetails = {
 };
 
 const youtubeLinks = {
-  urls:[
+  urls: [
     {
       title: "Fly without machine",
-      url:'https://www.youtube.com/embed/_rJWbKBq1uk'
+      url: "https://www.youtube.com/embed/_rJWbKBq1uk",
     },
-     {
+    {
       title: "Nth sydney-suburbs",
-      url:'https://www.youtube.com/embed/K-CGnatiE9I'
+      url: "https://www.youtube.com/embed/K-CGnatiE9I",
     },
     {
       title: "sydney harbour bridge walk",
-      url:'https://www.youtube.com/embed/Y1l1MDKL_q0'
+      url: "https://www.youtube.com/embed/Y1l1MDKL_q0",
     },
   ],
   display: false, // Set true to display this section, defaults to false
@@ -323,5 +323,5 @@ export {
   talkSection,
   contactInfo,
   twitterDetails,
-  youtubeLinks
+  youtubeLinks,
 };
