@@ -10,6 +10,7 @@ import {
   skillsSection,
   talkSection,
   workExperiences,
+  workRights
 } from "../../constants";
 import StyleContext from "../../contexts/StyleContext";
 import "./Header.css";
@@ -43,6 +44,7 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+  const viewWorkRights = workRights.display;
 
   return (
     <Headroom>
@@ -72,7 +74,7 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Experiences</a>
             </li>
           )}
           {viewOpenSource && (
@@ -83,6 +85,11 @@ function Header() {
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
+            </li>
+          )}
+          {viewWorkRights && (
+            <li>
+              <a href="#workrights">Work Rights</a>
             </li>
           )}
           {viewBlog && (

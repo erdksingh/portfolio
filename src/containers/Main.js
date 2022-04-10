@@ -16,6 +16,7 @@ import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import WorkExperience from "./workExperience/WorkExperience";
 import Youtube from "./youtube/youtube";
+import WorkRights from "./workRights/workRights";
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -46,6 +47,7 @@ export default class Main extends Component {
           <WorkExperience />
           <StartupProject />
           <Achievement />
+          <WorkRights/>
           <Contact />
           <Blogs />
           <Talks />

@@ -1,0 +1,51 @@
+.workrights-heading {
+  font-size: 50px;
+  font-weight: 450;
+}
+
+.workrights-section {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  padding: 10px 0px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.workrights-section > * {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.workrights-card-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  color: blue;
+}
+
+@media (max-width: 1380px) {
+  .workrights-card-container {
+    padding-top: 0px;
+  }
+  .workrights-heading {
+    font-size: 40px;
+  }
+  .workrights-text-subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .workrights-card-container {
+    padding-top: 0px;
+  }
+  .workrights-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .workrights-text-subtitle {
+    font-size: 16px;
+  }
+}

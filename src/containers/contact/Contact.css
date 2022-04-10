@@ -17,7 +17,7 @@
 
 .contact-detail,
 .contact-detail-email {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 40px;
   font-weight: 400;
   color: #868e96;
@@ -40,14 +40,14 @@
 }
 
 .contact-margin-top {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .contact-image-div > img {
   max-width: 100%;
   height: auto;
   margin-left: 1.5rem;
-  margin-top: -4rem;
+  margin-top: -2rem;
 }
 
 /* Media Query */

@@ -6,17 +6,18 @@ import nab from "./assets/images/nab1.jpg";
 import tbm from "./assets/images/tbm.png";
 import edulabs from "./assets/images/edulabs.png";
 import userImg from "./assets/images/user.jpg";
+import tpg from "./assets/images/tpg.jpeg";
 
 const illustration = {
   animated: true, // set to false to use static SVG
 };
 
 const greeting = {
-  username: "Durgesh Singh <DK>",
+  username: "Durgesh Singh",
   logo: userImg,
   title: "Hi, this is Durgesh",
   subTitle: emoji(
-    "I am a MERN/Full stack developer, experience working in the Banking and Telecommunication domains. I've 9+ years of experience in the software industry building native, hybrid, and monolithic applications using technologies such as JavaScript/TypeSCript/ReactJS/ExpressJS/NodeJS and Java/SpringBoot/Rest API and Docker and AWS"
+    "I am a Lead full stack developer, experience working in the Banking and Telecommunication domains. I've got 10+ years of experience in the software industry building native, hybrid, and monolithic applications using technologies like JavaScript/TypeSCript/React/ExpressJS/Node/Lambda Python, Docker and AWS"
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1ZlpBbOU7WIuVTmxj4E1qq8gqcuv1HN8s?usp=sharing",
@@ -34,10 +35,13 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "My skills",
-  subTitle: "✒️ A passionate developer, researcher, mentor and team player",
+  subTitle: "✒️ A passionate developer, debugger, mentor and team player",
   skills: [
     emoji(
-      "✒️ Working as a lead developer/mentor and design architect for a UI based Network visualization tool for the Network Engineers working in Telstra."
+      "✒️ Worked as a Senior Software Engineer for one of the latest tech space using Auth0 which enable password-less login to the Vodafone customers."
+    ),
+    emoji(
+      "✒️ Worked as a lead developer/mentor and design architect for a UI based Network visualization tool for the Network Engineers working in Telstra."
     ),
     emoji(
       "✒️ Worked on a 2G-3G-4G migration project for Telstra using technologies like SpringMVC, Spring Boot and React"
@@ -47,7 +51,7 @@ const skillsSection = {
     ),
     emoji("✒️ For more details of NAB project, pls visit https://mlc.com.au"),
     emoji(
-      "✒️ Works on school management applications based on JAVA, JavaScript’s and Vaadin."
+      "✒️ Worked on school management applications based on JAVA, JavaScript’s and Vaadin."
     ),
     emoji(
       "✒️ Apart from this, I have hands-on experience in following areas also."
@@ -78,8 +82,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm",
+      skillName: "Auth0",
+      fontAwesomeClassname: "fas fa-auth0",
     },
     {
       skillName: "MongoDB",
@@ -113,6 +117,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "AE Bitbucket",
       fontAwesomeClassname: "fas fa-sitemap",
     },
+    {
+      skillName: "Splunk",
+      fontAwesomeClassname: "ab fa-search-square",
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -140,7 +148,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",
-      progressPercentage: "80%",
+      progressPercentage: "70%",
     },
     {
       Stack: "Backend",
@@ -164,13 +172,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Full Stack Engineer",
+      company: "TPG Telecom",
+      companylogo: tpg,
+      date: "Aug 2021 – Feb 2022",
+      desc:
+      "Identity Platform using Auth0 to enable password less login. Joined as a full stack engineer to implement Identity plarform using AWS and Node JS",
+      descBullets: ["Perm"],
+    },
+    {
       role: "Senior Software Developer - Contract",
       company: "Telstra",
       companylogo: telstra,
-      date: "Mar 2020 – Present",
+      date: "Mar 2020 – Aug 2021",
       desc:
-        "Neuron is a multipurpose Network Visualization Tool designed for Radio Engineers to fix network problems, identify connectivity issues, upgrade it or can see the performance of cells specific to 3G,4G,5G Cells. It is being developed to tear down a few independent software which capability is in questions considering 3G technology is going to die like 2G. The purpose of this project is to decommission few older applications and fit into this. It’s an orchestration of at least ten smaller application running independently on very old platforms.",
+        "Neuron is a multipurpose Network Visualization Tool designed for Radio Engineers to fix network problems, identify connectivity issues, upgrade it or can see the performance of cells specific to 3G,4G,5G Cells.",
       descBullets: ["On Infosys contract"],
+    
     },
     {
       role: "Full Stack Engineer - Contract",
@@ -232,19 +250,26 @@ const achievementSection = {
   subtitle: "Achievements, Certifications, Award Letters summary",
 
   achievementsCards: [
-    emoji("✓ Pat on the back from client at onshore for living Brand value."),
+    emoji("✓ Pat on the back at NAB for living Brand value."),
     emoji("✓ Thumbs Up always for building defect free applications"),
     emoji("✓ Insta Awards at various levels at offshore"),
     emoji(
       "✓ Training on various technologies like Python, AWS, Node, Express, Security, etc"
     ),
     emoji(
-      "✓ Build swagger API internally as a team, which enables BA,’s to write swagger file easily with simple commands, as a part of client Hackathon."
+      "✓ Build swagger API internally as a team, which enables Business Analysts to write swagger file easily with simple commands, as a part of client Hackathon."
     ),
     emoji("✓ Agile certified"),
   ],
   display: true, // Set false to hide this section, defaults to true
 };
+
+//adding workrights section too
+const workRights = {
+  title: emoji("Work Rights"),
+  subtitle: "I'm a permanent resident of Australia and therefore have full work rights 😊😊😊",
+  display: true,
+}
 
 // Blogs Section
 
@@ -319,6 +344,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  workRights,
   blogSection,
   talkSection,
   contactInfo,
