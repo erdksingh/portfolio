@@ -12,6 +12,7 @@ const illustration = {
   animated: true, // set to false to use static SVG
 };
 
+//remove the short names
 const greeting = {
   username: "Durgesh Singh",
   logo: userImg,
