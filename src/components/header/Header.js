@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import * as Icon from "react-feather";
 import Headroom from "react-headroom";
 import Flip from "react-reveal/Flip";
+import LoadImage from "../../common/LoadImage";
 import {
   achievementSection,
   blogSection,
@@ -10,13 +11,12 @@ import {
   skillsSection,
   talkSection,
   workExperiences,
-  workRights
+  workRights,
 } from "../../constants";
 import StyleContext from "../../contexts/StyleContext";
 import "./Header.css";
 
 const SunMoon = ({ darkMode }) => {
-  console.log(darkMode);
   const styleContext = useContext(StyleContext);
   const [isDark, setIsDark] = useState(false);
   return (

@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
 import "./Greeting.css";
 import firstAnimation from "../../assets/lottie/first";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -9,6 +8,8 @@ import Button from "../../components/button/Button";
 
 import { illustration, greeting } from "../../constants";
 import StyleContext from "../../contexts/StyleContext";
+import LoadImage from "../../common/LoadImage";
+import EMOJI from "../../common/Emoji";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -27,7 +28,7 @@ export default function Greeting() {
                 }
               >
                 {greeting.title}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">{EMOJI("👋")}</span>
               </h1>
               <p
                 className={
@@ -53,10 +54,13 @@ export default function Greeting() {
             {illustration.animated ? (
               <DisplayLottie animationData={firstAnimation} />
             ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
+              LoadImage({
+                image: {
+                  alt: "man sitting on table",
+                  src: "../../assets/images/manOnTable.svg",
+                },
+                visibleByDefault: true,
+              })
             )}
           </div>
         </div>

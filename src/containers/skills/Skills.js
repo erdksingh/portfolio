@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import LoadImage from "../../common/LoadImage";
 
 export default function Skills() {
   const { isDark } = useContext(StyleContext);
@@ -20,10 +21,14 @@ export default function Skills() {
             {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
             ) : (
-              <img
-                alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")} //add your own image
-              ></img>
+              LoadImage({
+                image: {
+                  alt: "Man Working",
+                  src: "../../assets/images/developerActivity.svg",
+                  
+                },
+                visibleByDefault: true,
+              })
             )}
           </div>
         </Fade>

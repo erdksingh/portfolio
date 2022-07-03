@@ -1,5 +1,4 @@
-﻿import emoji from "react-easy-emoji";
-import college from "./assets/images/college.png";
+﻿import college from "./assets/images/college.png";
 import telstra from "./assets/images/telstra1.jpg";
 import infy from "./assets/images/infosys.png";
 import nab from "./assets/images/nab1.jpg";
@@ -7,6 +6,7 @@ import tbm from "./assets/images/tbm.png";
 import edulabs from "./assets/images/edulabs.png";
 import userImg from "./assets/images/user.jpg";
 import tpg from "./assets/images/tpg.jpeg";
+import EMOJI from "./common/Emoji";
 
 const illustration = {
   animated: true, // set to false to use static SVG
@@ -17,8 +17,8 @@ const greeting = {
   username: "Durgesh Singh",
   logo: userImg,
   title: "Hi, this is Durgesh",
-  subTitle: emoji(
-    "I am a Lead full stack developer, experience working in the Banking and Telecommunication domains. I've got 10+ years of experience in the software industry building native, hybrid, and monolithic applications using technologies like JavaScript/TypeSCript/React/ExpressJS/Node/Lambda Python, Docker and AWS"
+  subTitle: EMOJI(
+    "I am a Full Stack Engineer, experience working in the Banking and Telecommunication domains. I've got 10+ years of experience in the software industry building native, hybrid, and monolithic applications using technologies like JavaScript, TypeSCript, React, Micro frontend, ExpressJS, NodeJS, Docker and AWS Technologies"
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1ZlpBbOU7WIuVTmxj4E1qq8gqcuv1HN8s?usp=sharing",
@@ -38,26 +38,26 @@ const skillsSection = {
   title: "My skills",
   subTitle: "✒️ A passionate developer, debugger, mentor and team player",
   skills: [
-    emoji(
+    EMOJI(
       "✒️ Worked as a Senior Software Engineer for one of the latest tech space using Auth0 which enable password-less login to the Vodafone customers."
     ),
-    emoji(
+    EMOJI(
       "✒️ Worked as a lead developer/mentor and design architect for a UI based Network visualization tool for the Network Engineers working in Telstra."
     ),
-    emoji(
+    EMOJI(
       "✒️ Worked on a 2G-3G-4G migration project for Telstra using technologies like SpringMVC, Spring Boot and React"
     ),
-    emoji(
+    EMOJI(
       "✒️ Worked as a full stack developer being involved in complete Software Development Life cycle including Requirement Specification, Functional and Business Specification, Design Specification, Development, Deployment and Releasing the product to customer for National Australi Bank/ MLC"
     ),
-    emoji("✒️ For more details of NAB project, pls visit https://mlc.com.au"),
-    emoji(
+    EMOJI("✒️ For more details of NAB project, pls visit https://mlc.com.au"),
+    EMOJI(
       "✒️ Worked on school management applications based on JAVA, JavaScript’s and Vaadin."
     ),
-    emoji(
+    EMOJI(
       "✒️ Apart from this, I have hands-on experience in following areas also."
     ),
-    emoji(
+    EMOJI(
       "➢ Source / Version Control Tools: GitHub, AE Bitbucket, SVN \n➢ CI/CD Tools: Jenkins, TeamCity, Launch Darkly, Swagger-2.0 and 3.0. \n➢ Programming Languages: Java, SOAP / REST Web services \n➢ Application Server: Apache Tomcat, Oracle WebLogic \n➢ Development Tools: Visual Studio, Eclipse, IntelliJ, PyCharm \n➢ Database: Oracle, SQL, MySQL, MongoDb \n➢ Operating Systems: Windows, Unix/Linux, iOS"
     ),
   ],
@@ -178,7 +178,7 @@ const workExperiences = {
       companylogo: tpg,
       date: "Aug 2021 – Feb 2022",
       desc:
-      "Identity Platform using Auth0 to enable password less login. Joined as a full stack engineer to implement Identity plarform using AWS and Node JS",
+        "Identity Platform using Auth0 to enable password less login. Joined as a full stack engineer to implement Identity plarform using AWS and Node JS",
       descBullets: ["Perm"],
     },
     {
@@ -189,7 +189,6 @@ const workExperiences = {
       desc:
         "Neuron is a multipurpose Network Visualization Tool designed for Radio Engineers to fix network problems, identify connectivity issues, upgrade it or can see the performance of cells specific to 3G,4G,5G Cells.",
       descBullets: ["On Infosys contract"],
-    
     },
     {
       role: "Full Stack Engineer - Contract",
@@ -247,30 +246,31 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: EMOJI("Achievements And Certifications 🏆 "),
   subtitle: "Achievements, Certifications, Award Letters summary",
 
   achievementsCards: [
-    emoji("✓ Pat on the back at NAB for living Brand value."),
-    emoji("✓ Thumbs Up always for building defect free applications"),
-    emoji("✓ Insta Awards at various levels at offshore"),
-    emoji(
+    EMOJI("✓ Pat on the back at NAB for living Brand value."),
+    EMOJI("✓ Thumbs Up always for building defect free applications"),
+    EMOJI("✓ Insta Awards at various levels at offshore"),
+    EMOJI(
       "✓ Training on various technologies like Python, AWS, Node, Express, Security, etc"
     ),
-    emoji(
+    EMOJI(
       "✓ Build swagger API internally as a team, which enables Business Analysts to write swagger file easily with simple commands, as a part of client Hackathon."
     ),
-    emoji("✓ Agile certified"),
+    EMOJI("✓ Agile certified"),
   ],
   display: true, // Set false to hide this section, defaults to true
 };
 
 //adding workrights section too
 const workRights = {
-  title: emoji("Work Rights"),
-  subtitle: "I'm a permanent resident of Australia and therefore have full work rights 😊😊😊",
-  display: true,
-}
+  title: EMOJI("Work Rights"),
+  subtitle:
+    "I'm a permanent resident of Australia and therefore have full work rights 😊😊😊",
+  display: false,
+};
 
 // Blogs Section
 
@@ -292,7 +292,7 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(""),
+  subtitle: EMOJI(""),
   talks: [
     {
       title: "",
@@ -305,7 +305,7 @@ const talkSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: EMOJI("Contact Me ☎️"),
   number: "+61 XXX XXX XXX",
   email_address: "er.dks2012@gmail.com",
 };
