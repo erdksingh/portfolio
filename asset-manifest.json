@@ -1,6 +1,6 @@
 {
   "main.css": "/portfolio/static/css/main.468e6a1f.chunk.css",
-  "main.js": "/portfolio/static/js/main.b15644f6.chunk.js",
+  "main.js": "/portfolio/static/js/main.777cee88.chunk.js",
   "static/js/1.a9e9ef35.chunk.js": "/portfolio/static/js/1.a9e9ef35.chunk.js",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "static/media/college.png": "/portfolio/static/media/college.cfb52fa3.png",
@@ -14,6 +14,6 @@
   "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.51cf7192.svg",
   "static/media/TalkCard.css": "/portfolio/static/media/talksCardBack.13780cdd.svg",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.59ba7aff602f844eac44b4dd81195a4b.js": "/portfolio/precache-manifest.59ba7aff602f844eac44b4dd81195a4b.js",
+  "precache-manifest.5ebece2142169d0107da00bab6cc676d.js": "/portfolio/precache-manifest.5ebece2142169d0107da00bab6cc676d.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }

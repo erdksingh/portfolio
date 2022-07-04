@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b15644f623d8ac6bdf63",
+    "revision": "777cee88c3b1e262cc79",
     "url": "/portfolio/static/css/main.468e6a1f.chunk.css"
   },
   {
-    "revision": "b15644f623d8ac6bdf63",
-    "url": "/portfolio/static/js/main.b15644f6.chunk.js"
+    "revision": "777cee88c3b1e262cc79",
+    "url": "/portfolio/static/js/main.777cee88.chunk.js"
   },
   {
     "revision": "a9e9ef35c945387be1d2",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/talksCardBack.13780cdd.svg"
   },
   {
-    "revision": "afb75f39f904332935109c259b924048",
+    "revision": "fea214b234961b4905558e9b9eb40167",
     "url": "/portfolio/index.html"
   }
 ];
