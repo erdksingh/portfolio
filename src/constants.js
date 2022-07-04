@@ -5,7 +5,7 @@ import nab from "./assets/images/nab1.jpg";
 import tbm from "./assets/images/tbm.png";
 import edulabs from "./assets/images/edulabs.png";
 import userImg from "./assets/images/user.jpg";
-import tpg from "./assets/images/tpg.jpeg";
+import tpg from "./assets/images/tpg.jpg";
 import EMOJI from "./common/Emoji";
 
 const illustration = {

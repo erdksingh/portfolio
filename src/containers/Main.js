@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+﻿import React, { Component } from "react";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import { StyleProvider } from "../contexts/StyleContext";
@@ -43,11 +43,11 @@ export default class Main extends Component {
           <Greeting />
           <Skills />
           <StackProgress />
-          <Education />
           <WorkExperience />
           <StartupProject />
           <Achievement />
-          <WorkRights/>
+          <Education />
+          <WorkRights />
           <Contact />
           <Blogs />
           <Talks />
