@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.81cadd40.css",
-    "main.js": "/portfolio/static/js/main.c136d4cc.js",
+    "main.js": "/portfolio/static/js/main.71c65c7c.js",
     "static/media/college.png": "/portfolio/static/media/college.6fb74d47df3e5fefc738.png",
     "static/media/instaAward2.jpg": "/portfolio/static/media/instaAward2.506c89173f3b4fc98f09.jpg",
     "static/media/instaAward3.jpg": "/portfolio/static/media/instaAward3.47232cd229d8f1efc1f4.jpg",
-    "static/media/tpg.jpeg": "/portfolio/static/media/tpg.0ea8e252f0fe9cb6a8f2.jpeg",
+    "static/media/tpg.jpg": "/portfolio/static/media/tpg.0ea8e252f0fe9cb6a8f2.jpg",
     "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/instaAward1.jpg": "/portfolio/static/media/instaAward1.fa5a51ea0691090ad931.jpg",
     "static/media/user.jpg": "/portfolio/static/media/user.80240c88beb8ebaf6e41.jpg",
@@ -14,10 +14,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.81cadd40.css.map": "/portfolio/static/css/main.81cadd40.css.map",
-    "main.c136d4cc.js.map": "/portfolio/static/js/main.c136d4cc.js.map"
+    "main.71c65c7c.js.map": "/portfolio/static/js/main.71c65c7c.js.map"
   },
   "entrypoints": [
     "static/css/main.81cadd40.css",
-    "static/js/main.c136d4cc.js"
+    "static/js/main.71c65c7c.js"
   ]
 }
