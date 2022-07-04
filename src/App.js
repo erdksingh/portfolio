@@ -5,7 +5,7 @@ import ReactGA from "react-ga";
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize("DK-FOLIO-000000-01");
+    ReactGA.initialize("G-B7717RYFWJ");
     ReactGA.pageview(window.location.pathname);
   });
   return (
