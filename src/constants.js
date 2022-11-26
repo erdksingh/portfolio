@@ -7,6 +7,7 @@ import edulabs from "./assets/images/edulabs.png";
 import userImg from "./assets/images/user.jpg";
 import tpg from "./assets/images/tpg.jpg";
 import EMOJI from "./common/Emoji";
+import optus from "./assets/images/optus.jpeg";
 
 const illustration = {
   animated: true, // set to false to use static SVG
@@ -173,10 +174,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Engineer/DevOps Engineer",
+      company: "Optus",
+      companylogo: optus,
+      date: "Jul 2021 – Present",
+      desc: "Living Network",
+    },
+    {
       role: "Senior Full Stack Engineer",
       company: "TPG Telecom",
       companylogo: tpg,
-      date: "Aug 2021 – Feb 2022",
+      date: "Aug 2021 – Jun 2022",
       desc:
         "Identity Platform using Auth0 to enable password less login. Joined as a full stack engineer to implement Identity plarform using AWS and Node JS",
       descBullets: ["Perm"],
