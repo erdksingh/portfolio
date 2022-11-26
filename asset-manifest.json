@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5bc9085a.css",
-    "main.js": "/portfolio/static/js/main.556426f6.js",
+    "main.js": "/portfolio/static/js/main.9aa5ce03.js",
     "static/media/college.png": "/portfolio/static/media/college.6fb74d47df3e5fefc738.png",
     "static/media/instaAward2.jpg": "/portfolio/static/media/instaAward2.506c89173f3b4fc98f09.jpg",
     "static/media/instaAward3.jpg": "/portfolio/static/media/instaAward3.47232cd229d8f1efc1f4.jpg",
@@ -10,12 +10,13 @@
     "static/media/instaAward1.jpg": "/portfolio/static/media/instaAward1.fa5a51ea0691090ad931.jpg",
     "static/media/user.jpg": "/portfolio/static/media/user.80240c88beb8ebaf6e41.jpg",
     "static/media/instaAward4.jpg": "/portfolio/static/media/instaAward4.f2fcda6060805123fa0e.jpg",
+    "static/media/optus.jpeg": "/portfolio/static/media/optus.0a0559528ccc9ec4581b.jpeg",
     "static/media/edulabs.png": "/portfolio/static/media/edulabs.7cba5a6e7d0ee7216b9c.png",
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg"
   },
   "entrypoints": [
     "static/css/main.5bc9085a.css",
-    "static/js/main.556426f6.js"
+    "static/js/main.9aa5ce03.js"
   ]
 }
