@@ -19,7 +19,7 @@ const greeting = {
   logo: userImg,
   title: "Hi, this is Durgesh",
   subTitle: EMOJI(
-    "I am a Full Stack Engineer/DevSecOps Engineer, experience working in the Banking and Telecommunication domains. I've got 10+ years of experience in the software industry building native, hybrid, and monolithic applications using technologies like JavaScript, TypeSCript, React, Micro frontend, ExpressJS, NodeJS, Docker and AWS Technologies. I'm Rancher and K8s trained and working as DevSecOps Engineer."
+    "I'm a seasoned Full Stack and DevSecOps Engineer with over a decade of expertise in the Banking and Telecommunication sectors. My extensive software industry background includes crafting diverse applications, leveraging technologies such as JavaScript, TypeScript, React, Micro frontend, ExpressJS, NodeJS, Docker, and AWS. I specialize in Rancher and K8s, currently thriving in the role of a DevSecOps Engineer."
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1ZlpBbOU7WIuVTmxj4E1qq8gqcuv1HN8s?usp=sharing",
@@ -138,12 +138,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Gautam Buddh Technical University, Lucknow",
+      schoolName: "PCCS Greater Noida aff GBTU Lucknow",
       logo: college,
       subHeader: "Bachelor of Technology",
       duration: "Jun 2008 - June 2012",
       desc: "",
-      descBullets: ["Information Technology with Hons"],
+      descBullets: ["Information Technology with Honours degree"],
     },
   ],
 };
@@ -190,9 +190,9 @@ const workExperiences = {
       role: "Full Stack Engineer/DevOps Engineer",
       company: "Optus",
       companylogo: optus,
-      date: "Jul 2021 – Present",
-      desc: "Living Network Products such as Call Translate, Call Notes, Call Effects and CAll AI",
-      descBullets: ["Perm"],
+      date: "Jul 2022 – Present",
+      desc: "Living Network Products such as Call Translate, Call Notes, Call Effects and CAll AI. In development, we use Rust and TypeScript for the back-end, and employ Rancher, K8s, and Docker to host and orchestrate projects. Additionally, we utilize visualization tools like Grafana, Kibana, Prometheus, and Elastic for enhanced project monitoring and analysis.",
+      // descBullets: ["Perm"],
     },
     {
       role: "Senior Full Stack Engineer",
@@ -200,7 +200,7 @@ const workExperiences = {
       companylogo: tpg,
       date: "Aug 2021 – Jun 2022",
       desc: "Identity Platform using Auth0 to enable password less login. Joined as a full stack engineer to implement Identity plarform using AWS and Node JS",
-      descBullets: ["Perm"],
+      // descBullets: ["Perm"],
     },
     {
       role: "Senior Software Developer - Contract",
@@ -208,7 +208,7 @@ const workExperiences = {
       companylogo: telstra,
       date: "Mar 2020 – Aug 2021",
       desc: "Neuron is a multipurpose Network Visualization Tool designed for Radio Engineers to fix network problems, identify connectivity issues, upgrade it or can see the performance of cells specific to 3G,4G,5G Cells.",
-      descBullets: ["On Infosys contract"],
+      // descBullets: ["On Infosys contract"],
     },
     {
       role: "Full Stack Engineer - Contract",
@@ -216,7 +216,7 @@ const workExperiences = {
       companylogo: nab,
       date: "Feb 2019 – Feb 2020",
       desc: "This project is for NAB/MLC investors to manage their investments and aim was to build a brand-new website with all the latest technologies to remediate security risks in old websites. For more details pls download my CV",
-      descBullets: ["On Infosys contract"],
+      // descBullets: ["On Infosys contract"],
     },
     {
       role: "Technology Analyst",
