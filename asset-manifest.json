@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9dc9a729.chunk.css",
-    "main.js": "/portfolio/static/js/main.69c275d2.chunk.js",
+    "main.css": "/portfolio/static/css/main.fa5a1371.chunk.css",
+    "main.js": "/portfolio/static/js/main.2584872e.chunk.js",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "static/js/2.b5e08509.chunk.js": "/portfolio/static/js/2.b5e08509.chunk.js",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.6aa9ef7e4b4de9dd3943c02353a6f0e2.js": "/portfolio/precache-manifest.6aa9ef7e4b4de9dd3943c02353a6f0e2.js",
+    "precache-manifest.bcdea3ed04b9f8a6df10ea587db6c4ca.js": "/portfolio/precache-manifest.bcdea3ed04b9f8a6df10ea587db6c4ca.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/media/college.png": "/portfolio/static/media/college.cfb52fa3.png",
     "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.51cf7192.svg",
