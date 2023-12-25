@@ -19,7 +19,7 @@ const greeting = {
   logo: userImg,
   title: "Hi, this is Durgesh",
   subTitle: EMOJI(
-    "I am a Full Stack Engineer, experience working in the Banking and Telecommunication domains. I've got 10+ years of experience in the software industry building native, hybrid, and monolithic applications using technologies like JavaScript, TypeSCript, React, Micro frontend, ExpressJS, NodeJS, Docker and AWS Technologies"
+    "I am a Full Stack Engineer/DevSecOps Engineer, experience working in the Banking and Telecommunication domains. I've got 10+ years of experience in the software industry building native, hybrid, and monolithic applications using technologies like JavaScript, TypeSCript, React, Micro frontend, ExpressJS, NodeJS, Docker and AWS Technologies. I'm Rancher and K8s trained and working as DevSecOps Engineer."
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1ZlpBbOU7WIuVTmxj4E1qq8gqcuv1HN8s?usp=sharing",
@@ -37,7 +37,8 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "My skills",
-  subTitle: "✒️ A passionate developer, debugger, mentor and team player",
+  subTitle:
+    "✒️ A passionate developer, devops engineer, and a future solution architect",
   skills: [
     EMOJI(
       "✒️ Worked as a Senior Software Engineer for one of the latest tech space using Auth0 which enable password-less login to the Vodafone customers."
@@ -120,8 +121,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-sitemap",
     },
     {
-      skillName: "Splunk",
-      fontAwesomeClassname: "ab fa-search-square",
+      skillName: "Rancher",
+      fontAwesomeClassname: "fa-solid fa-hat-cowboy-side",
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fa-solid fa-gears",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -149,12 +154,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "DevOps",
+      progressPercentage: "80%",
+    },
+    {
       Stack: "Frontend/Design",
-      progressPercentage: "70%",
+      progressPercentage: "50%",
     },
     {
       Stack: "Backend",
-      progressPercentage: "80%",
+      progressPercentage: "60%",
     },
     {
       Stack: "Programming",
@@ -162,6 +171,10 @@ const techStack = {
     },
     {
       Stack: "Mentoring",
+      progressPercentage: "10%",
+    },
+    {
+      Stack: "Solutioning",
       progressPercentage: "30%",
     },
   ],
@@ -178,15 +191,15 @@ const workExperiences = {
       company: "Optus",
       companylogo: optus,
       date: "Jul 2021 – Present",
-      desc: "Living Network",
+      desc: "Living Network Products such as Call Translate, Call Notes, Call Effects and CAll AI",
+      descBullets: ["Perm"],
     },
     {
       role: "Senior Full Stack Engineer",
       company: "TPG Telecom",
       companylogo: tpg,
       date: "Aug 2021 – Jun 2022",
-      desc:
-        "Identity Platform using Auth0 to enable password less login. Joined as a full stack engineer to implement Identity plarform using AWS and Node JS",
+      desc: "Identity Platform using Auth0 to enable password less login. Joined as a full stack engineer to implement Identity plarform using AWS and Node JS",
       descBullets: ["Perm"],
     },
     {
@@ -194,8 +207,7 @@ const workExperiences = {
       company: "Telstra",
       companylogo: telstra,
       date: "Mar 2020 – Aug 2021",
-      desc:
-        "Neuron is a multipurpose Network Visualization Tool designed for Radio Engineers to fix network problems, identify connectivity issues, upgrade it or can see the performance of cells specific to 3G,4G,5G Cells.",
+      desc: "Neuron is a multipurpose Network Visualization Tool designed for Radio Engineers to fix network problems, identify connectivity issues, upgrade it or can see the performance of cells specific to 3G,4G,5G Cells.",
       descBullets: ["On Infosys contract"],
     },
     {
@@ -203,8 +215,7 @@ const workExperiences = {
       company: "National Australia Bank",
       companylogo: nab,
       date: "Feb 2019 – Feb 2020",
-      desc:
-        "This project is for NAB/MLC investors to manage their investments and aim was to build a brand-new website with all the latest technologies to remediate security risks in old websites. For more details pls download my CV",
+      desc: "This project is for NAB/MLC investors to manage their investments and aim was to build a brand-new website with all the latest technologies to remediate security risks in old websites. For more details pls download my CV",
       descBullets: ["On Infosys contract"],
     },
     {
@@ -212,24 +223,21 @@ const workExperiences = {
       company: "Infosys",
       companylogo: infy,
       date: "Dec 2014 – Jan 2019",
-      desc:
-        "Dibbler is a robust software application designed to help radio engineers to upgrade/downgrade/update information in the network. This was a monolithic architectural desktop-based application built in Angular JS, Java, and related technologies.",
+      desc: "Dibbler is a robust software application designed to help radio engineers to upgrade/downgrade/update information in the network. This was a monolithic architectural desktop-based application built in Angular JS, Java, and related technologies.",
     },
     {
       role: "Java Developer",
       company: "TBM Technologies Pvt Ltd",
       companylogo: tbm,
       date: "Sep 2013 – Nov 2014",
-      desc:
-        "Java developer who worked on enhancement and responsible for testing on IVR, develop, test new features as per specifications.",
+      desc: "Java developer who worked on enhancement and responsible for testing on IVR, develop, test new features as per specifications.",
     },
     {
       role: "Associate Software Engineer",
       company: "Edulabs Learning Sol Pvt Ltd",
       companylogo: edulabs,
       date: "Jun 2012 – Jul 2013",
-      desc:
-        "Java and Vaadin developer who worked with team to build new components and get training on other technologies involved in the development process.",
+      desc: "Java and Vaadin developer who worked with team to build new components and get training on other technologies involved in the development process.",
     },
   ],
 };

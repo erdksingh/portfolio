@@ -9,7 +9,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "apollo-boost": "^0.4.9",
-    "colorthief": "^2.3.2",
+    "colorthief": "^2.2.0",
     "graphql": "^14.7.0",
     "prettier": "^2.8.0",
     "react": "^16.14.0",
@@ -22,7 +22,7 @@
     "react-linkedin-sdk": "^1.0.1",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "react-twitter-embed": "3.0.3",
     "web-vitals": "^1.1.2"
   },
