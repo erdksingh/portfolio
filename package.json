@@ -22,7 +22,7 @@
     "react-linkedin-sdk": "^1.0.1",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-twitter-embed": "3.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -53,6 +53,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^6.3.0"
   }
 }

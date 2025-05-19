@@ -51,7 +51,7 @@ export default function Achievement() {
                   key={i}
                   isDark={isDark}
                   cardInfo={card}
-                  image={imageLookUp[i]}
+                  // image={imageLookUp[i]}
                 />
               );
             })}

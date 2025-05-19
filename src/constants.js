@@ -19,7 +19,7 @@ const greeting = {
   logo: userImg,
   title: "Hi, this is Durgesh",
   subTitle: EMOJI(
-    "I'm a seasoned Full Stack and DevSecOps Engineer with over a decade of expertise in the Banking and Telecommunication sectors. My extensive software industry background includes crafting diverse applications, leveraging technologies such as JavaScript, TypeScript, React, Micro frontend, ExpressJS, NodeJS, Docker, and AWS. I specialize in Rancher and K8s, currently thriving in the role of a DevSecOps Engineer."
+    "A Lead DevOps Engineer, with over 14 years of expertise in the Banking and Telecommunication sectors. Primarily coming from development background, focusing on designing and automating GitOps toolings by hosting in-house products offered to the wide devoloper community."
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1ZlpBbOU7WIuVTmxj4E1qq8gqcuv1HN8s?usp=sharing",
@@ -38,8 +38,11 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "My skills",
   subTitle:
-    "✒️ A passionate developer, devops engineer, and a future solution architect",
+    "✒️ A Lead DevOps Engineer, a Principle Engineer or DevOps Architect",
   skills: [
+    EMOJI(
+      "✒️  Senior DevOps/Platform Engineer, responsible for designing and automating the SDLC with a strong focus on DevSecOps. Hosted all required tools in-house on a VMware-based Kubernetes cluster 😊"
+    ),
     EMOJI(
       "✒️ Worked as a Senior Software Engineer for one of the latest tech space using Auth0 which enable password-less login to the Vodafone customers."
     ),
@@ -69,31 +72,43 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "JavaScript",
+      skillName: "DevSecOps|GitOps",
       fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "TypeScript",
+      skillName: "Ansible Tower | AAP",
+      fontAwesomeClassname: "fab fa-aws",
+    },
+    {
+      skillName: "Ansible Satellite",
+      fontAwesomeClassname: "fab fa-aws",
+    },
+    {
+      skillName: "OpenShift",
+      fontAwesomeClassname: "fab fa-aws",
+    },
+    {
+      skillName: "PaaS",
       fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "ReactJS",
+      skillName: "SaaS",
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "nodejs",
+      skillName: "Harbor",
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "Auth0",
+      skillName: "ArgoCD",
       fontAwesomeClassname: "fas fa-auth0",
     },
     {
-      skillName: "MongoDB",
+      skillName: "NoSQL and SQL DB",
       fontAwesomeClassname: "fas fa-database",
     },
     {
-      skillName: "Express Js",
+      skillName: "Nexus",
       fontAwesomeClassname: "fab fa-js",
     },
     {
@@ -101,23 +116,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws",
     },
     {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java",
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker",
     },
     {
-      skillName: "sql-database",
+      skillName: "Elastic Stack",
       fontAwesomeClassname: "fas fa-database",
     },
     {
-      skillName: "Git",
+      skillName: "Grafana",
+      fontAwesomeClassname: "fas fa-database",
+    },
+    {
+      skillName: "GitLab",
       fontAwesomeClassname: "fab fa-git",
     },
     {
-      skillName: "AE Bitbucket",
+      skillName: "Vault",
       fontAwesomeClassname: "fas fa-sitemap",
     },
     {
@@ -154,7 +169,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "DevOps",
+      Stack: "DevSecOps",
       progressPercentage: "80%",
     },
     {
@@ -170,12 +185,16 @@ const techStack = {
       progressPercentage: "60%",
     },
     {
-      Stack: "Mentoring",
-      progressPercentage: "10%",
+      Stack: "Mentoring and LeaderShip",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "Architecture",
+      progressPercentage: "40%",
     },
     {
       Stack: "Solutioning",
-      progressPercentage: "30%",
+      progressPercentage: "70%",
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -187,19 +206,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Engineer/DevOps Engineer",
+      role: "Senior DevOps Engineer",
       company: "Optus",
       companylogo: optus,
       date: "Jul 2022 – Present",
-      desc: "Living Network Products such as Call Translate, Call Notes, Call Effects and CAll AI. In development, we use Rust and TypeScript for the back-end, and employ Rancher, K8s, and Docker to host and orchestrate projects. Additionally, we utilize visualization tools like Grafana, Kibana, Prometheus, and Elastic for enhanced project monitoring and analysis.",
-      // descBullets: ["Perm"],
+      desc: "Scrum lead and platform owner for a Kubernetes cluster running DevOps and GitOps tools. Responsible for designing future cloud solutions with a focus on redundancy and resiliency using public cloud such as AWS and GCP",
+      descBullets: ["Perm"],
     },
     {
-      role: "Senior Full Stack Engineer",
+      role: "Senior Software/Principle Engineer",
       company: "TPG Telecom",
       companylogo: tpg,
       date: "Aug 2021 – Jun 2022",
-      desc: "Identity Platform using Auth0 to enable password less login. Joined as a full stack engineer to implement Identity plarform using AWS and Node JS",
+      desc: "Identity Platform using Auth0 to enable password less login. Joined as a full stack engineer to implement Identity plarform using AWS and Node JS, Hold the platform engineering role at the very end to con-ordinate and deliver the password-less solution across mobile app and other area of the businesses.",
       // descBullets: ["Perm"],
     },
     {
@@ -219,7 +238,7 @@ const workExperiences = {
       // descBullets: ["On Infosys contract"],
     },
     {
-      role: "Technology Analyst",
+      role: "Technology Analyst/Technlogy Lead",
       company: "Infosys",
       companylogo: infy,
       date: "Dec 2014 – Jan 2019",
@@ -266,12 +285,10 @@ const achievementSection = {
   subtitle: "Achievements, Certifications, Award Letters summary",
 
   achievementsCards: [
-    EMOJI("✓ Pat on the back at NAB for living Brand value."),
-    EMOJI("✓ Thumbs Up always for building defect free applications"),
+    EMOJI("✓ AWS Solution Architect Associate"),
+    EMOJI("✓ Rancher and Kubernetes"),
+    EMOJI("✓ Ansible"),
     EMOJI("✓ Insta Awards at various levels at offshore"),
-    EMOJI(
-      "✓ Training on various technologies like Python, AWS, Node, Express, Security, etc"
-    ),
     EMOJI(
       "✓ Build swagger API internally as a team, which enables Business Analysts to write swagger file easily with simple commands, as a part of client Hackathon."
     ),
