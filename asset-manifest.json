@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e18cf960.css",
-    "main.js": "/portfolio/static/js/main.26b7a947.js",
+    "main.js": "/portfolio/static/js/main.4843a961.js",
     "static/media/college.png": "/portfolio/static/media/college.6fb74d47df3e5fefc738.png",
     "static/media/instaAward2.jpg": "/portfolio/static/media/instaAward2.506c89173f3b4fc98f09.jpg",
     "static/media/instaAward3.jpg": "/portfolio/static/media/instaAward3.47232cd229d8f1efc1f4.jpg",
@@ -17,6 +17,6 @@
   },
   "entrypoints": [
     "static/css/main.e18cf960.css",
-    "static/js/main.26b7a947.js"
+    "static/js/main.4843a961.js"
   ]
 }
