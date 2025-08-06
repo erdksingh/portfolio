@@ -206,7 +206,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Chapter Lead DevOps",
+      role: "Chapter Lead DevSecOps",
       company: "Optus",
       companylogo: optus,
       date: "Jul 2022 – Present",
