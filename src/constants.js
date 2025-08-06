@@ -206,15 +206,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior DevOps Engineer",
+      role: "Chapter Lead DevOps",
       company: "Optus",
       companylogo: optus,
       date: "Jul 2022 – Present",
-      desc: "Scrum lead and platform owner for a Kubernetes cluster running DevOps and GitOps tools. Responsible for designing future cloud solutions with a focus on redundancy and resiliency using public cloud such as AWS and GCP",
+      desc: "Platform owner for a Kubernetes cluster running DevOps and GitOps tools. Responsible for designing future cloud solutions with a focus on redundancy and resiliency using public cloud such as AWS and GCP",
       descBullets: ["Perm"],
     },
     {
-      role: "Senior Software/Principle Engineer",
+      role: "Senior Software Engineer | Principal Engineer",
       company: "TPG Telecom",
       companylogo: tpg,
       date: "Aug 2021 – Jun 2022",
@@ -238,14 +238,14 @@ const workExperiences = {
       // descBullets: ["On Infosys contract"],
     },
     {
-      role: "Technology Analyst/Technlogy Lead",
+      role: "Technology Analyst | Technology Lead",
       company: "Infosys",
       companylogo: infy,
       date: "Dec 2014 – Jan 2019",
       desc: "Dibbler is a robust software application designed to help radio engineers to upgrade/downgrade/update information in the network. This was a monolithic architectural desktop-based application built in Angular JS, Java, and related technologies.",
     },
     {
-      role: "Java Developer",
+      role: "Software Engineer",
       company: "TBM Technologies Pvt Ltd",
       companylogo: tbm,
       date: "Sep 2013 – Nov 2014",
@@ -255,7 +255,7 @@ const workExperiences = {
       role: "Associate Software Engineer",
       company: "Edulabs Learning Sol Pvt Ltd",
       companylogo: edulabs,
-      date: "Jun 2012 – Jul 2013",
+      date: "Jun 2011 – Jul 2013",
       desc: "Java and Vaadin developer who worked with team to build new components and get training on other technologies involved in the development process.",
     },
   ],
